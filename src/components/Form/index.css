@@ -1,0 +1,46 @@
+.form-container {
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.field-row {
+  display: flex;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.field-group label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  height: 20px;
+}
+
+.field-group input {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid grey;
+}
+
+.field-group strong {
+  color: red;
+  font-size: 12px;
+}
+
+.form-container button {
+  background-color: aqua;
+  font-size: 20px;
+  border: 1px solid aqua;
+  padding: 10px;
+  border-radius: 5px;
+  border-radius: 4px;
+}
